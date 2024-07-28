@@ -12,7 +12,7 @@ import NotFound from "./components/Pages/NotFound/NotFound";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "assignment-one-react",
       element: <Layout />,
       children: [
         { path: "", element: <Home /> },
