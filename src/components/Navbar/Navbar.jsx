@@ -26,7 +26,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container">
-        <Link className="navbar-brand text-white" to="/">
+        <Link className="navbar-brand text-white" to="/assignment-one-react/">
           <h2>start Framework</h2>
         </Link>
         <button
@@ -46,18 +46,24 @@ const Navbar = () => {
               <NavLink
                 className="nav-link text-white"
                 aria-current="page"
-                to="about"
+                to="/assignment-one-react/about"
               >
                 about
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-white" to="portfolio">
+              <NavLink
+                className="nav-link text-white"
+                to="/assignment-one-react/portfolio"
+              >
                 portfolio
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-white" to="contact">
+              <NavLink
+                className="nav-link text-white"
+                to="/assignment-one-react/contact"
+              >
                 contact
               </NavLink>
             </li>
