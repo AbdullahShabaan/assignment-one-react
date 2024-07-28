@@ -15,11 +15,11 @@ function App() {
       path: "assignment-one-react",
       element: <Layout />,
       children: [
-        { path: "", element: <Home /> },
-        { path: "/about", element: <About /> },
-        { path: "/portfolio", element: <Portfolio /> },
-        { path: "/contact", element: <Contact /> },
-        { path: "*", element: <NotFound /> },
+        { path: "assignment-one-react", element: <Home /> },
+        { path: "assignment-one-react/about", element: <About /> },
+        { path: "assignment-one-react/portfolio", element: <Portfolio /> },
+        { path: "assignment-one-react/contact", element: <Contact /> },
+        { path: "assignment-one-react/*", element: <NotFound /> },
       ],
     },
   ]);
