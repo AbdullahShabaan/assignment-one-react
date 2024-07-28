@@ -1,0 +1,8 @@
+.about {
+  background-color: #1abc9c;
+  min-height: calc(-112px + 100vh);
+}
+.about h2 {
+  font-size: 40px;
+  font-weight: 700;
+}

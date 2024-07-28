@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #2c3e50;
+  transition: 0.4s;
+}
+.navbar.scrolled {
+  padding: 10px !important;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.nav-item,
+.navbar-brand h2 {
+  font-weight: 700;
+}
+.nav-link {
+  width: fit-content;
+  padding: 8px;
+}
+a.active {
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+}
