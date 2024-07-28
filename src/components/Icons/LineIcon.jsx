@@ -1,6 +1,5 @@
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../Pages/Home/Home.css";
 
 const LineIcon = (props) => {
   return (

@@ -3,13 +3,13 @@ import {
   faTwitter,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import "./Footer.css";
+import style from "./Footer.module.css";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <>
-      <div className="footer w-100 text-center text-white py-5">
+      <div className={`${style.footer} w-100 text-center text-white py-5`}>
         <div className="container">
           <div className="row py-4 g-4">
             <div className="col-md-4 p-3 ps-0 ps-0">
@@ -56,7 +56,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="second-footer w-100 d-flex justify-content-center align-items-center text-white">
+      <div
+        className={`${style["second-footer"]} w-100 d-flex justify-content-center align-items-center text-white`}
+      >
         <p>Copyright © Your Website 2021</p>
       </div>
     </>

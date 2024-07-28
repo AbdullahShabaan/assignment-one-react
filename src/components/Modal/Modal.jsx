@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
-import "./Modal.css";
 const Modal = ({ children }) => {
   const ref = useRef(null);
   if (!ref.current) {

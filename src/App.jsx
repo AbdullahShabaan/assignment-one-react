@@ -7,6 +7,7 @@ import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Contact from "./components/Pages/Contact/Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
+import NotFound from "./components/Pages/NotFound/NotFound";
 
 function App() {
   const router = createBrowserRouter([
@@ -14,11 +15,11 @@ function App() {
       path: "",
       element: <Layout />,
       children: [
-        { path: "/", element: <Home /> },
+        { path: "", element: <Home /> },
         { path: "/about", element: <About /> },
         { path: "/portfolio", element: <Portfolio /> },
         { path: "/contact", element: <Contact /> },
-        { path: "*", element: <div>Page not found</div> },
+        { path: "*", element: <NotFound /> },
       ],
     },
   ]);
